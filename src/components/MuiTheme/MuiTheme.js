@@ -5,7 +5,7 @@ const theme = createTheme({
     type: 'light',
     primary: {
       main: '#035973',
-      light: '#a0d3e3',
+      light: '#dde1e3',
     },
     secondary: {
       main: '#8d6e63',
@@ -62,6 +62,7 @@ const theme = createTheme({
         h3: {
           fontFamily: 'Noto Sans',
           fontWeight: '600',
+          color: '#102024',
         },
         h4: { fontFamily: 'Noto Sans' },
       },

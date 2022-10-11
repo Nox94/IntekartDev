@@ -1,22 +1,4 @@
-export const serviceSectionBoxStyles = (reverse) => ({
-  width: '100%',
-  // minHeight: '618px',
-  // padding: '0 0 10% 0',
-  // boxSizing: 'border-box',
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  // backgroundColor: 'primary.main',
-  // outline: '1px solid red',
-});
-
-export const servicesSectionHeaderStyles = {
-  mb: '2%',
-  textAlign: 'center',
-  color: 'primary.main',
-};
-
-export const servicesBoxStyles = {
+export const servicesSectionBoxStyles = {
   width: '100%',
   maxWidth: '1440px',
   margin: '5% auto 0 auto',
@@ -25,9 +7,27 @@ export const servicesBoxStyles = {
   boxSizing: 'border-box',
   display: 'flex',
   flexDirection: 'column',
+  alignItems: 'stretch',
+  justifyContent: 'center',
+  outline: '1px solid blue',
+};
+
+export const servicesBoxStyles = {
+  width: '100vw',
+  // minHeight: '618px',
+  // padding: '0 0 10% 0',
+  // boxSizing: 'border-box',
+  display: 'flex',
+  flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
-  // outline: '1px solid blue',
+  // backgroundColor: 'primary.main',
+  outline: '1px solid red',
+};
+
+export const servicesSectionHeaderStyles = {
+  mb: '2%',
+  textAlign: 'center',
 };
 
 export const servicesSectionTextStyles = { marginBottom: '20px', width: '80%' };
@@ -53,4 +53,8 @@ export const servicesSectionPaperStyles = {
   justifyContent: 'center',
   padding: '5% 3%',
   boxSizing: 'border-box',
+};
+
+export const servicesAccordionSummaryStyles = {
+  backgroundColor: 'primary.light',
 };

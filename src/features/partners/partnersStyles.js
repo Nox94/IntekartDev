@@ -15,7 +15,6 @@ export const partnersContainerStyles = {
 
 export const partnersHeaderStyles = {
   mb: '2%',
-  color: 'secondary.dark',
   // fontWeight: 600,
   // letterSpacing: '0.5rem',
 };
