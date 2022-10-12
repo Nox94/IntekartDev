@@ -1,52 +1,172 @@
 import React from 'react';
 import {
   Box,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
+  // List,
+  // ListItem,
+  // ListItemIcon,
+  // ListItemText,
   Typography,
-  Accordion,
-  AccordionSummary,
-  AccordionDetails,
+  Card,
+  CardMedia,
+  CardActionArea,
+  CardContent,
 } from '@mui/material';
 import {
   servicesBoxStyles,
   servicesSectionBoxStyles,
   servicesSectionHeaderStyles,
+  servicesCardStyles,
+  servicesCardTextStyles,
   // servicesSectionListBox,
   // servicesSectionPaperStyles,
-  servicesSectionTextStyles,
-  servicesAccordionSummaryStyles,
+  // servicesSectionTextStyles,
+  // servicesAccordionSummaryStyles,
 } from './servicesStyles.js';
-import RoomRoundedIcon from '@mui/icons-material/RoomRounded';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import chinaPanorama from '../../images/china_panorama.png';
-// import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
-// import ApartmentIcon from '@mui/icons-material/Apartment';
-// import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
-// import {
-//   digitalModelTextData,
-//   listItemsData,
-// } from '../../constants/constants.js';
+// import RoomRoundedIcon from '@mui/icons-material/RoomRounded';
+// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+// import chinaPanorama from '../../images/china_panorama.png';
+import DigModImg from '../../images/digital_model.jpg';
+import mapDB from '../../images/map_DB.jpg';
+import gisSystem from '../../images/gis-systems.png';
 
-function Services(props) {
+function Services() {
   return (
     <Box sx={servicesBoxStyles}>
+      <Typography
+        variant={'h3'}
+        sx={servicesSectionHeaderStyles}
+        id={'services'}
+      >
+        Наши услуги
+      </Typography>
       <Box sx={servicesSectionBoxStyles}>
-        <Typography
-          variant={'h3'}
-          sx={servicesSectionHeaderStyles}
-          id={'services'}
-        >
-          Наши услуги:
-        </Typography>
         {/* <img
           src={chinaPanorama}
           style={{ width: '100%', objectFit: 'contain', margin: '0 0 8% 0' }}
           alt='Изображение Китая.'
         /> */}
-        <Accordion elevation={0}>
+        <Card sx={servicesCardStyles}>
+          <CardActionArea>
+            <CardMedia
+              component='img'
+              height='160'
+              image={DigModImg}
+              alt='green iguana'
+            />
+            <CardContent>
+              <Typography
+                gutterBottom
+                variant='subtitle1'
+                component='div'
+                sx={servicesCardTextStyles}
+              >
+                Создание цифровых моделей местности
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+        <Card sx={servicesCardStyles}>
+          <CardActionArea>
+            <CardMedia
+              component='img'
+              height='160'
+              image={mapDB}
+              alt='green iguana'
+            />
+            <CardContent>
+              <Typography
+                gutterBottom
+                variant='subtitle1'
+                component='div'
+                sx={servicesCardTextStyles}
+              >
+                Создание картографических баз данных различного назначения
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+        <Card sx={servicesCardStyles}>
+          <CardActionArea>
+            <CardMedia
+              component='img'
+              height='160'
+              image={gisSystem}
+              alt='green iguana'
+            />
+            <CardContent>
+              <Typography
+                gutterBottom
+                variant='subtitle1'
+                component='div'
+                sx={servicesCardTextStyles}
+              >
+                Разработка ГИС систем различного назначения
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+
+        <Card sx={servicesCardStyles}>
+          <CardActionArea>
+            <CardMedia
+              component='img'
+              height='160'
+              image={DigModImg}
+              alt='green iguana'
+            />
+            <CardContent>
+              <Typography
+                gutterBottom
+                variant='subtitle1'
+                component='div'
+                sx={servicesCardTextStyles}
+              >
+                Создание цифровых моделей местности
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+        <Card sx={servicesCardStyles}>
+          <CardActionArea>
+            <CardMedia
+              component='img'
+              height='160'
+              image={mapDB}
+              alt='green iguana'
+            />
+            <CardContent>
+              <Typography
+                gutterBottom
+                variant='subtitle1'
+                component='div'
+                sx={servicesCardTextStyles}
+              >
+                Создание картографических баз данных различного назначения
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+        <Card sx={servicesCardStyles}>
+          <CardActionArea>
+            <CardMedia
+              component='img'
+              height='160'
+              image={gisSystem}
+              alt='green iguana'
+            />
+            <CardContent>
+              <Typography
+                gutterBottom
+                variant='subtitle1'
+                component='div'
+                sx={servicesCardTextStyles}
+              >
+                Разработка ГИС систем различного назначения
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+        {/* <Accordion elevation={0}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls='1'
@@ -114,7 +234,7 @@ function Services(props) {
               eget.
             </Typography>
           </AccordionDetails>
-        </Accordion>
+        </Accordion> */}
       </Box>
     </Box>
   );

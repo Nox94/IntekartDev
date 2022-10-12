@@ -6,8 +6,10 @@ export const contactsSectionBoxStyles = {
   flexDirection: 'column',
   alignItems: 'flex-start',
   justifyContent: 'center',
-  backgroundColor: 'rgb(2, 62, 80)',
+  // backgroundColor: 'rgb(1 50 64)',
+  backgroundColor: 'rgb(47 47 48)',
   boxSizing: 'border-box',
+  color: '#ccd2d3',
 };
 
 export const mainInnerBoxStyles = {
@@ -19,7 +21,7 @@ export const mainInnerBoxStyles = {
 export const contactsHeaderStyles = {
   mb: '5px',
   mt: '15px',
-  color: 'primary.light',
+  fontWeight: '600',
 };
 
 // export const contactsTextStyles = {
