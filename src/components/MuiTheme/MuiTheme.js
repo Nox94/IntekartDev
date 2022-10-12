@@ -4,7 +4,7 @@ const theme = createTheme({
   palette: {
     type: 'light',
     primary: {
-      main: '#035973',
+      main: 'rgb(1 50 64)',
       light: '#dde1e3',
     },
     secondary: {
@@ -56,15 +56,18 @@ const theme = createTheme({
       styleOverrides: {
         // Name of the slot
         body1: {
-          // Some CSS
           fontSize: '18px',
         },
+        h1: { color: '#102024' },
         h3: {
           fontFamily: 'Noto Sans',
           fontWeight: '600',
           color: '#102024',
         },
         h4: { fontFamily: 'Noto Sans' },
+        subtitle1: {
+          color: '#102024',
+        },
       },
     },
   },

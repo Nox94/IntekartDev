@@ -15,8 +15,6 @@ export const partnersContainerStyles = {
 
 export const partnersHeaderStyles = {
   mb: '2%',
-  // fontWeight: 600,
-  // letterSpacing: '0.5rem',
 };
 
 export const partnersInnerContainerStyles = {
@@ -30,14 +28,19 @@ export const partnersBoxStyles = {
   width: '15%',
   justifyContent: 'flex-end',
   alignItems: 'center',
-  // outline: '1px solid blue',
   margin: '0 15px',
   textAlign: 'center',
+  // outline: '1px solid blue',
 };
 
 export const partnersLogoStyles = {
-  width: '50%',
-  height: '50%',
+  width: '60%',
+  height: '60%',
   objectFit: 'contain',
   margin: '0 0 10px 0',
+};
+
+export const partnersSubtitleStyles = {
+  textAlign: 'center',
+  fontWeight: '600',
 };

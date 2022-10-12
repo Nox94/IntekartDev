@@ -1,11 +1,6 @@
 import React from 'react';
-import { Box, Button, Typography } from '@mui/material';
-import {
-  mainBoxStyles,
-  mainHeaderStyles,
-  mainImageStyles,
-} from './MainStyles.js';
-import mainImg from '../../images/earth_2.png';
+import { Box, Typography } from '@mui/material';
+import { mainBoxStyles, mainHeaderStyles } from './MainStyles.js';
 
 const Main = () => {
   return (
@@ -13,7 +8,6 @@ const Main = () => {
       <Typography variant={'h1'} sx={mainHeaderStyles}>
         инновационные технологии электронных карт
       </Typography>
-      <img src={mainImg} style={mainImageStyles} />
     </Box>
   );
 };

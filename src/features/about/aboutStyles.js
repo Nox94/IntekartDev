@@ -17,10 +17,7 @@ export const aboutContentBoxStyles = {
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'flex-start',
-  // padding: '5%',
-  // boxSizing: 'border-box',
-  // height: '100%',
 };
 
-export const aboutCardHeaderStyles = { mb: '10%', color: 'primary.main' };
+export const aboutCardHeaderStyles = { mb: '10%' };
 export const aboutCardTextStyles = { marginBottom: '20px' };

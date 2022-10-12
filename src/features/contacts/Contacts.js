@@ -1,40 +1,39 @@
 import React from 'react';
-import { Box, Link, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import {
   contactsHeaderStyles,
   contactsSectionBoxStyles,
-  contactsTextStyles,
   mainInnerBoxStyles,
 } from './contactsStyles.js';
 
 function Contacts(props) {
   return (
     <Box sx={contactsSectionBoxStyles}>
-      <Typography variant={'h4'} sx={contactsHeaderStyles} id={'contacts'}>
+      <Typography variant={'h5'} sx={contactsHeaderStyles} id={'contacts'}>
         Контакты
       </Typography>
 
       <Box sx={mainInnerBoxStyles}>
         <Box>
-          <Typography variant={'h5'} sx={contactsHeaderStyles}>
+          <Typography variant={'h6'} sx={contactsHeaderStyles}>
             Телефон
           </Typography>
-          <Typography variant={'body1'}>+7 903 682 0431</Typography>
+          <Typography variant={'body2'}>+7 903 682 0431</Typography>
         </Box>
 
         <Box>
-          <Typography variant={'h5'} sx={contactsHeaderStyles}>
+          <Typography variant={'h6'} sx={contactsHeaderStyles}>
             Email
           </Typography>
-          <Typography variant={'body1'}>intekart@intekart.ru</Typography>
+          <Typography variant={'body2'}>intekart@intekart.ru</Typography>
         </Box>
 
         <Box>
-          <Typography variant={'h5'} sx={contactsHeaderStyles}>
+          <Typography variant={'h6'} sx={contactsHeaderStyles}>
             Адрес
           </Typography>
-          <Typography variant={'body1'}>
-            141070, Россия, МО, г. Королев, Циолковского 27, офис 3
+          <Typography variant={'body2'}>
+            141070, Россия, МО, г. Королев, ул. Циолковского 27, офис 3
           </Typography>
         </Box>
       </Box>
@@ -43,13 +42,3 @@ function Contacts(props) {
 }
 
 export default Contacts;
-
-{
-  /*<Typography variant={'body1'} sx={contactsTextStyles}>*/
-}
-{
-  /*  +7 (496) 514-29-56*/
-}
-{
-  /*</Typography>*/
-}
