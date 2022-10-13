@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/IntekartDev/static/css/main.1927c5cb.css",
-    "main.js": "/IntekartDev/static/js/main.1236d184.js",
-    "static/media/earth_2.png": "/IntekartDev/static/media/earth_2.a4f70f85e2a0992b61d5.png",
-    "static/media/china_panorama.png": "/IntekartDev/static/media/china_panorama.10d75ab80a2e461d93b0.png",
+    "main.js": "/IntekartDev/static/js/main.3809085c.js",
     "static/media/institut_kom.png": "/IntekartDev/static/media/institut_kom.3a2ea918796a15100ed8.png",
+    "static/media/earth_6.png": "/IntekartDev/static/media/earth_6.38a7025082e87f8ec76c.png",
+    "static/media/digital_model.jpg": "/IntekartDev/static/media/digital_model.420a39f2ad05940d7262.jpg",
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-900.ttf": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-900.f00e62d8847654e6b2f7.ttf",
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-700.ttf": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-700.b9a7ad88828af3274fc1.ttf",
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-regular.ttf": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-regular.ac16c5238973af1fdd56.ttf",
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-600.ttf": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-600.89e8c5563a5d68b9e81b.ttf",
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-300.ttf": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-300.55f82941ffed3a5a72aa.ttf",
+    "static/media/gis-systems.png": "/IntekartDev/static/media/gis-systems.f143ffadb1ee00eb3241.png",
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-900.svg": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-900.786da2a61011eed56182.svg",
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-700.svg": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-700.7fd8195925da497f6d0c.svg",
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-regular.svg": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-regular.d15fc7300cc27f2e5a9a.svg",
@@ -22,6 +23,7 @@
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-700.woff": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-700.65205c96591d97dd65d5.woff",
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-600.eot": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-600.93b78d1c2c3a72f599c7.eot",
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-300.eot": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-300.0ccf932e00c36ce3189f.eot",
+    "static/media/map_DB.jpg": "/IntekartDev/static/media/map_DB.8d80f436a4665b939c24.jpg",
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-regular.eot": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-regular.ad1afadd9cb83be391e8.eot",
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-900.eot": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-900.97153d617993d2883966.eot",
     "static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-700.eot": "/IntekartDev/static/media/noto-sans-v27-latin_cyrillic-ext_cyrillic-700.f649e802dd7bf17da253.eot",
@@ -37,10 +39,10 @@
     "static/media/kron_logo.svg": "/IntekartDev/static/media/kron_logo.af875951b76c92f57e3754272347c816.svg",
     "index.html": "/IntekartDev/index.html",
     "main.1927c5cb.css.map": "/IntekartDev/static/css/main.1927c5cb.css.map",
-    "main.1236d184.js.map": "/IntekartDev/static/js/main.1236d184.js.map"
+    "main.3809085c.js.map": "/IntekartDev/static/js/main.3809085c.js.map"
   },
   "entrypoints": [
     "static/css/main.1927c5cb.css",
-    "static/js/main.1236d184.js"
+    "static/js/main.3809085c.js"
   ]
 }
