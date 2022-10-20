@@ -1,9 +1,8 @@
-// import earthImage2 from '../../images/earth_2.png';
-// import earthImage1 from '../../images/earth_1.png';
-// import earthImage3 from '../../images/earth_3.png';
-// import earthImage4 from '../../images/earth_4.png';
-// import earthImage5 from '../../images/earth_5.png';
-import earthImage6 from '../../images/earth_6.png';
+// import draft1 from '../../images/draft_1.jpg';
+// import draft2 from '../../images/draft2.jpg';
+// import draft3 from '../../images/draft3.jpg';
+import draft4 from '../../images/draft4.png';
+// import draft5 from '../../images/draft5.jpg';
 
 export const mainBoxStyles = (theme) => ({
   width: '100%',
@@ -12,10 +11,10 @@ export const mainBoxStyles = (theme) => ({
   alignSelf: 'center',
   // outline: '1px solid red',
   margin: '0 auto',
-  backgroundImage: `url(${earthImage6})`,
+  backgroundImage: `url(${draft4})`,
   backgroundRepeat: 'no-repeat',
-  backgroundPosition: 'right center',
-  backgroundSize: '60%',
+  backgroundPosition: '140% 60%',
+  backgroundSize: '75%',
   display: 'flex',
   alignItems: 'top',
   boxSizing: 'border-box',
@@ -36,11 +35,12 @@ export const mainBoxStyles = (theme) => ({
 export const mainHeaderStyles = (theme) => ({
   maxWidth: '700px',
   color: 'rgb(10 77 96)',
-  fontWeight: '500',
+  fontWeight: '600',
   textTransform: 'uppercase',
   margin: '0 0 0 10%',
   position: 'relative',
   zIndex: '50',
+  fontFamily: 'Arimo, sans-serif',
   [theme.breakpoints.up('xxl')]: {
     margin: '0 0 0 5%',
     padding: '0 0 20% 0',

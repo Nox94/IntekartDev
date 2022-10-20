@@ -7,15 +7,16 @@ import Services from './features/services/index.js';
 import About from './features/about/index.js';
 import Contacts from './features/contacts/index.js';
 import { appBoxStyles } from './AppStyles.js';
-import Partners from './features/partners/Partners';
+import PartnersMonotone from './features/partners/PartnersMonotone';
 
 function App() {
   return (
     <Box sx={appBoxStyles}>
       <Header />
       <Main />
+      <PartnersMonotone />
       <About />
-      <Partners />
+      {/* <Partners /> */}
       <Services />
       {/*<Projects />*/}
       <Contacts />

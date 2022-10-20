@@ -5,7 +5,6 @@ export const headerAppBarStyles = {
 export const headerCompanyNameStyles = {
   // mr: '25%',
   display: 'flex',
-  // fontFamily: 'monospace',
   fontWeight: 800,
   letterSpacing: '.2rem',
   color: 'inherit',
@@ -30,10 +29,11 @@ export const headerToolbarBoxStyles = {
 
 export const navLinkStyles = {
   textDecoration: 'none',
-  color: 'inherit',
+  color: '#2f2f30',
   letterSpacing: '.1rem',
   textTransform: 'uppercase',
   fontWeight: 700,
+  fontFamily: 'Arimo, sans-serif',
   // outline: '1px solid green',
 };
 //

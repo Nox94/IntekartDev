@@ -4,11 +4,14 @@ const theme = createTheme({
   palette: {
     type: 'light',
     primary: {
-      main: 'rgb(1 50 64)',
-      light: '#dde1e3',
+      main: '#abafb1',
+      light: '#BBBFC0',
+      dark: '#777A7B',
     },
     secondary: {
-      main: '#8d6e63',
+      main: '#80deea',
+      light: '#99E4EE',
+      dark: '#599BA3',
     },
     success: {
       main: '#2e7d32',
