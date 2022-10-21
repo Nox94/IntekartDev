@@ -1,4 +1,4 @@
-export const partnersContainerStyles = {
+export const partnersContainerStyles = (theme) => ({
   display: 'flex',
   width: '100%',
   // maxWidth: '1280px',
@@ -13,7 +13,10 @@ export const partnersContainerStyles = {
   background:
     'linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(119,122,123,1) 30%, rgba(119,122,123,1) 70%, rgba(255,255,255,0) 100%)',
   color: 'primary.main',
-};
+  [theme.breakpoints.down('lg')]: {
+    backgroundColor: 'rgba(119,122,123,1)',
+  },
+});
 
 export const partnersHeaderStyles = {
   mb: '2%',
@@ -22,17 +25,18 @@ export const partnersHeaderStyles = {
 export const partnersInnerContainerStyles = (theme) => ({
   display: 'flex',
   margin: '0 auto',
-  width: '70%',
+  width: '100%',
+  maxWidth: '1280px',
   justifyContent: 'space-between',
   // outline: '1px solid blue',
-  [theme.breakpoints.up('xxl')]: {
-    width: '1440px',
-  },
+  // [theme.breakpoints.up('xxl')]: {
+  //   width: '1440px',
+  // },
 });
 
 export const partnersBoxStyles = (theme) => ({
   display: 'flex',
-  width: '10%',
+  width: '15%',
   justifyContent: 'center',
   alignItems: 'center',
   // outline: '1px solid blue',

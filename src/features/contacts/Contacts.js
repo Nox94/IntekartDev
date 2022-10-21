@@ -4,16 +4,17 @@ import {
   contactsHeaderStyles,
   contactsSectionBoxStyles,
   mainInnerBoxStyles,
+  contactsMapStyles,
 } from './contactsStyles.js';
+import contactsMap from '../../images/cantacts_map_monotone.webp';
 
 function Contacts(props) {
   return (
     <Box sx={contactsSectionBoxStyles}>
-      <Typography variant={'h5'} sx={contactsHeaderStyles} id={'contacts'}>
-        Контакты
-      </Typography>
-
       <Box sx={mainInnerBoxStyles}>
+        <Typography variant={'h5'} sx={contactsHeaderStyles} id={'contacts'}>
+          Контакты
+        </Typography>
         <Box>
           <Typography variant={'h6'} sx={contactsHeaderStyles}>
             Телефон
@@ -37,6 +38,8 @@ function Contacts(props) {
           </Typography>
         </Box>
       </Box>
+
+      <Box component={'img'} src={contactsMap} sx={contactsMapStyles}></Box>
     </Box>
   );
 }

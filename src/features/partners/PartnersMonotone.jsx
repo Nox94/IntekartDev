@@ -20,7 +20,7 @@ import rpkbLogo from '../../images/mono-logo/rpkb_logo.png';
 import sukhoiLogo from '../../images/mono-logo/Suchoi_logo.png';
 import panoramaLogo from '../../images/mono-logo/panorama_logo.png';
 
-const PartnersMonotone = () => {
+function PartnersMonotone() {
   return (
     <Box sx={partnersContainerStyles}>
       <Box sx={partnersInnerContainerStyles}>
@@ -105,6 +105,6 @@ const PartnersMonotone = () => {
       </Box>
     </Box>
   );
-};
+}
 
 export default PartnersMonotone;

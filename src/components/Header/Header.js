@@ -8,13 +8,14 @@ import {
   Toolbar,
   Typography,
 } from '@mui/material';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import {
   headerAppBarStyles,
   headerCompanyNameStyles,
   headerToolbarBoxStyles,
   headerToolbarStyles,
   navLinkStyles,
+  headerLogoStyles,
 } from './HeaderStyles.js';
 import { useLocation } from 'react-router';
 import logo from '../../images/intekart_logo.png';
@@ -32,15 +33,7 @@ const Header = () => {
       <Container maxWidth={'xl'}>
         <Toolbar sx={headerToolbarStyles}>
           <Box sx={headerToolbarBoxStyles}>
-            <img
-              src={logo}
-              style={{
-                width: '15%',
-                height: '15%',
-                objectFit: 'contain',
-                margin: '0 20px 0 0',
-              }}
-            />
+            <Box component={'img'} src={logo} sx={headerLogoStyles} />
             <Typography
               variant='h6'
               noWrap

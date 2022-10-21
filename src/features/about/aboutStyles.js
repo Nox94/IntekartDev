@@ -1,13 +1,13 @@
 export const aboutSectionBoxStyles = {
   width: '100%',
-  maxWidth: '1440px',
+  maxWidth: '1280px',
   boxSizing: 'border-box',
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'stretch',
   alignItems: 'center',
-  margin: '10% auto 0 auto',
-  padding: '0 5%',
+  margin: '5% auto 0 auto',
+  // padding: '0 5%',
   // outline: '1px solid blue',
 };
 

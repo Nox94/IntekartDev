@@ -15,7 +15,7 @@ export const headerToolbarStyles = {
   display: 'flex',
   justifyContent: 'space-between',
   width: '100%',
-  maxWidth: '1440px',
+  maxWidth: '1280px',
   margin: '0 auto',
   boxSizing: 'border-box',
   // outline: '1px solid blue',
@@ -35,6 +35,13 @@ export const navLinkStyles = {
   fontWeight: 700,
   fontFamily: 'Arimo, sans-serif',
   // outline: '1px solid green',
+};
+
+export const headerLogoStyles = {
+  width: '15%',
+  height: '15%',
+  objectFit: 'contain',
+  margin: '0 20px 0 0',
 };
 //
 // export const buttonHeaderStyles = (location) => ({

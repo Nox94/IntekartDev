@@ -6,14 +6,14 @@ import draft4 from '../../images/draft4.png';
 
 export const mainBoxStyles = (theme) => ({
   width: '100%',
-  maxWidth: '1440px',
+  maxWidth: '1280px',
   padding: '8% 0 5% 0',
   alignSelf: 'center',
   // outline: '1px solid red',
   margin: '0 auto',
   backgroundImage: `url(${draft4})`,
   backgroundRepeat: 'no-repeat',
-  backgroundPosition: '140% 60%',
+  backgroundPosition: '150% 45%',
   backgroundSize: '75%',
   display: 'flex',
   alignItems: 'top',
@@ -37,16 +37,16 @@ export const mainHeaderStyles = (theme) => ({
   color: 'rgb(10 77 96)',
   fontWeight: '600',
   textTransform: 'uppercase',
-  margin: '0 0 0 10%',
+  // margin: '0 0 0 10%',
   position: 'relative',
   zIndex: '50',
   fontFamily: 'Arimo, sans-serif',
   [theme.breakpoints.up('xxl')]: {
-    margin: '0 0 0 5%',
+    // margin: '0 0 0 5%',
     padding: '0 0 20% 0',
   },
   [theme.breakpoints.down('xxl')]: {
-    margin: '0 0 0 5%',
+    // margin: '0 0 0 5%',
     padding: '0 0 10% 0',
   },
   [theme.breakpoints.down('xl')]: {
