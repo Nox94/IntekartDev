@@ -37,7 +37,7 @@ const Header = () => {
               variant='h6'
               noWrap
               component='a'
-              href='/intekart'
+              href='/IntekartDev'
               sx={headerCompanyNameStyles}
             >
               ИНТЭ<span style={{ color: '#035973' }}>КАРТ</span>
