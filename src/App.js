@@ -12,8 +12,8 @@ function App() {
     <Box sx={appBoxStyles}>
       <Header />
       <Routes>
-        <Route path='/intekart' element={<Main />} />
-        <Route path='/intekart/contacts' element={<Contacts />} />
+        <Route path='/IntekartDev' element={<Main />} />
+        <Route path='/IntekartDev/contacts' element={<Contacts />} />
       </Routes>
       <Footer />
     </Box>

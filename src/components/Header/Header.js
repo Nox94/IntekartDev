@@ -50,12 +50,12 @@ const Header = () => {
             alignSelf={'center'}
           >
             <Typography textAlign='center'>
-              <Link href={'/intekart/#about'} style={navLinkStyles}>
+              <Link href={'/IntekartDev/#about'} style={navLinkStyles}>
                 {'о нас'}
               </Link>
             </Typography>
             <Typography textAlign='center'>
-              <Link href={'/intekart/#services'} style={navLinkStyles}>
+              <Link href={'/IntekartDev/#services'} style={navLinkStyles}>
                 {'услуги'}
               </Link>
             </Typography>
@@ -65,7 +65,7 @@ const Header = () => {
             {/*  </NavLink>*/}
             {/*</Typography>*/}
             <Typography textAlign='center'>
-              <Link href={'/intekart/contacts'} style={navLinkStyles}>
+              <Link href={'/IntekartDev/contacts'} style={navLinkStyles}>
                 {'контакты'}
               </Link>
             </Typography>

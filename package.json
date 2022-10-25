@@ -2,7 +2,7 @@
   "name": "intekart",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nox94.github.io/intekart/",
+  "homepage": "https://nox94.github.io/IntekartDev/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
