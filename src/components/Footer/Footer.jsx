@@ -1,11 +1,16 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import { footerContainerStyles } from './footerStyles.js';
+import {
+  footerContainerStyles,
+  footerCopyrightStyles,
+} from './footerStyles.js';
 
 function Footer() {
   return (
     <Box sx={footerContainerStyles}>
-      <Typography variant='body2'>&#169; Интэкарт 2022</Typography>
+      <Typography variant='body2' sx={footerCopyrightStyles}>
+        &#169;Интэкарт 2005-2022
+      </Typography>
     </Box>
   );
 }

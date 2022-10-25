@@ -1,32 +1,36 @@
+import pic from '../../images/pic1.png';
+
 export const contactsSectionBoxStyles = {
   width: '100%',
-  maxWidth: '1440px',
-  margin: '5% auto 0 auto',
-  // padding: '2% 5%',
+  flexGrow: '1',
+  padding: '5% 0 0 0',
   display: 'flex',
-  // flexDirection: 'column',
-  alignItems: 'center',
+  alignItems: 'flex-start',
   justifyContent: 'center',
-  // backgroundColor: 'rgb(1 50 64)',
-  // backgroundColor: 'rgb(47 47 48)',
+  background:
+    'linear-gradient(0deg, rgba(255,255,255,0) 80%, rgba(187,191,192,1) 100%)',
   boxSizing: 'border-box',
-  // color: '#ccd2d3',
-  outline: '1px solid green',
   overflow: 'hidden',
 };
 
-export const mainInnerBoxStyles = {
+export const contactsInnerBoxStyles = {
   display: 'flex',
-  width: '60%',
+  width: '100%',
+  maxWidth: '50%',
   justifyContent: 'space-between',
-  flexBasis: '40%',
-  outline: '2px solid blue',
+  flexDirection: 'column',
+  // outline: '2px solid blue',
+  backgroundImage: `url(${pic})`,
+  backgroundSize: '70%',
+  backgroundRepeat: 'no-repeat',
+  backgroundColor: 'transparent',
+  backgroundPosition: '100% 95%',
 };
 
 export const contactsHeaderStyles = {
-  mb: '5px',
-  mt: '15px',
-  fontWeight: '600',
+  margin: '1em 0 2% 0',
+  fontWeight: '800',
+  color: 'secondary.dark',
 };
 
 export const contactsMapStyles = {
@@ -35,6 +39,4 @@ export const contactsMapStyles = {
   outline: '2px solid green',
 };
 
-// export const contactsTextStyles = {
-//   marginBottom: '15px',
-// };
+export const contactsTextStyles = { fontWeight: '600', color: 'primary.dark' };

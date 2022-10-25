@@ -40,11 +40,6 @@ function Services() {
         Наши услуги
       </Typography>
       <Box sx={servicesSectionBoxStyles}>
-        {/* <img
-          src={chinaPanorama}
-          style={{ width: '100%', objectFit: 'contain', margin: '0 0 8% 0' }}
-          alt='Изображение Китая.'
-        /> */}
         <Card sx={servicesCardStyles}>
           <CardActionArea>
             <CardMedia

@@ -34,7 +34,6 @@ export const navLinkStyles = {
   textTransform: 'uppercase',
   fontWeight: 700,
   fontFamily: 'Arimo, sans-serif',
-  // outline: '1px solid green',
 };
 
 export const headerLogoStyles = {

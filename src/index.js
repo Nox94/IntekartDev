@@ -8,11 +8,11 @@ import theme from './components/MuiTheme/index.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-    <React.StrictMode>
-      <ThemeProvider theme={theme}>
+  <React.StrictMode>
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
         <App />
-      </ThemeProvider>
-    </React.StrictMode>
-  </BrowserRouter>
+      </BrowserRouter>
+    </ThemeProvider>
+  </React.StrictMode>
 );

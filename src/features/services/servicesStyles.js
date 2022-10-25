@@ -10,9 +10,9 @@ export const servicesBoxStyles = {
 
 export const servicesSectionBoxStyles = {
   width: '100%',
-  maxWidth: '1440px',
-  height: '100%',
-  padding: '0 5%',
+  maxWidth: '1280px',
+  // height: '100%',
+  // padding: '0 5%',
   boxSizing: 'border-box',
   display: 'flex',
   flexDirection: 'row',
@@ -29,7 +29,7 @@ export const servicesSectionHeaderStyles = {
 };
 
 export const servicesCardStyles = {
-  maxWidth: 345,
+  maxWidth: 350,
   height: '250px',
 };
 

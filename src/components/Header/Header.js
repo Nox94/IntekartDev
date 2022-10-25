@@ -8,7 +8,6 @@ import {
   Toolbar,
   Typography,
 } from '@mui/material';
-// import { NavLink } from 'react-router-dom';
 import {
   headerAppBarStyles,
   headerCompanyNameStyles,
@@ -17,11 +16,11 @@ import {
   navLinkStyles,
   headerLogoStyles,
 } from './HeaderStyles.js';
-import { useLocation } from 'react-router';
+// import { useLocation } from 'react-router';
 import logo from '../../images/intekart_logo.png';
 
 const Header = () => {
-  const location = useLocation();
+  // const location = useLocation();
   return (
     <AppBar
       position={'static'}
@@ -38,25 +37,25 @@ const Header = () => {
               variant='h6'
               noWrap
               component='a'
-              href='/'
+              href='/intekart'
               sx={headerCompanyNameStyles}
             >
               ИНТЭ<span style={{ color: '#035973' }}>КАРТ</span>
             </Typography>
           </Box>
           <Stack
-            spacing={{ xs: 6, sm: 8, md: 10, xl: 12 }}
+            spacing={{ xxs: 2, xs: 4, sm: 6, md: 8, xl: 10, xxl: 12 }}
             direction={'row'}
             alignItems={'center'}
             alignSelf={'center'}
           >
             <Typography textAlign='center'>
-              <Link href={'#about'} style={navLinkStyles}>
+              <Link href={'/intekart/#about'} style={navLinkStyles}>
                 {'о нас'}
               </Link>
             </Typography>
             <Typography textAlign='center'>
-              <Link href={'#services'} style={navLinkStyles}>
+              <Link href={'/intekart/#services'} style={navLinkStyles}>
                 {'услуги'}
               </Link>
             </Typography>
@@ -66,7 +65,7 @@ const Header = () => {
             {/*  </NavLink>*/}
             {/*</Typography>*/}
             <Typography textAlign='center'>
-              <Link href={'#contacts'} style={navLinkStyles}>
+              <Link href={'/intekart/contacts'} style={navLinkStyles}>
                 {'контакты'}
               </Link>
             </Typography>

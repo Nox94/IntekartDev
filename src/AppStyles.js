@@ -1,18 +1,7 @@
-/* eslint-disable quotes */
 export const appBoxStyles = {
-  // backgroundColor: 'background.default',
-  // color: '#fff',
-  // minHeight: '100vh',
-  // minWidth: '100vw',
-  // backgroundImage: `url('https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80')`,
-  // backgroundSize: 'cover',
-  // backgroundPositionX: '200px',
-  // backgroundPositionY: '-70px',
-  // backgroundRepeatX: 'no-repeat',
-  // backgroundRepeatY: 'repeat',
-  // display: 'flex',
-  // flexDirection: 'column',
-  // justifyContent: 'flex-start',
-  // alignItems: 'center',
-  margin: '0 auto',
+  background:
+    'linear-gradient(180deg, rgba(255,255,255,0) 90%, rgba(171,175,177,1) 100%)',
+  display: 'flex',
+  flexDirection: 'column',
+  minHeight: '100vh',
 };

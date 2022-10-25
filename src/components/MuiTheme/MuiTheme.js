@@ -63,13 +63,14 @@ const theme = createTheme({
         },
         h1: { color: '#102024' },
         h3: {
-          fontFamily: 'Noto Sans',
+          fontFamily: 'Arimo, sans-serif',
           fontWeight: '600',
           color: '#102024',
         },
-        h4: { fontFamily: 'Noto Sans' },
+        h4: { fontFamily: 'Arimo, sans-serif' },
         subtitle1: {
           color: '#102024',
+          fontFamily: 'Arimo, sans-serif',
         },
       },
     },
