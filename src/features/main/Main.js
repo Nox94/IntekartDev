@@ -6,11 +6,14 @@ import About from '../about/About.jsx';
 import Services from '../services/index.js';
 
 function Main() {
+  let windowSize = document.documentElement.clientWidth;
+
   return (
     <>
       <Box sx={mainBoxStyles}>
         <Typography variant={'h1'} sx={mainHeaderStyles}>
           инновационные технологии электронных карт
+          {windowSize}
         </Typography>
       </Box>
       <PartnersMonotone />

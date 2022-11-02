@@ -67,6 +67,10 @@ export const partnersSmallerLogoStyles = (theme) => ({
     width: '50%',
     height: '50%',
   },
+  [theme.breakpoints.down('md')]: {
+    width: '55%',
+    height: '55%',
+  },
 });
 
 export const partnersSubtitleStyles = (theme) => ({
@@ -76,6 +80,9 @@ export const partnersSubtitleStyles = (theme) => ({
   fontSize: '1.5em',
   [theme.breakpoints.down('lg')]: {
     fontSize: '1em',
+  },
+  [theme.breakpoints.down('md')]: {
+    fontSize: '1.3em',
   },
 });
 

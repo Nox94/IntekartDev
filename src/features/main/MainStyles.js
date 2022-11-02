@@ -52,4 +52,7 @@ export const mainHeaderStyles = (theme) => ({
   [theme.breakpoints.down('xl')]: {
     padding: '0 0 15% 0',
   },
+  [theme.breakpoints.down('md')]: {
+    padding: '0 0 15% 5%',
+  },
 });
