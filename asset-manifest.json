@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/IntekartDev/static/css/main.4793e5fd.css",
-    "main.js": "/IntekartDev/static/js/main.6fcefaa0.js",
+    "main.js": "/IntekartDev/static/js/main.2e0e22ff.js",
     "static/media/institut_kom.png": "/IntekartDev/static/media/institut_kom.efff5c67bbfc364f1462.png",
     "static/media/arimo-v27-latin-ext_cyrillic-ext-600.ttf": "/IntekartDev/static/media/arimo-v27-latin-ext_cyrillic-ext-600.ef0f6e2561e142f4a593.ttf",
     "static/media/arimo-v27-latin-ext_cyrillic-ext-500.ttf": "/IntekartDev/static/media/arimo-v27-latin-ext_cyrillic-ext-500.39d794c47438276ed64e.ttf",
@@ -59,10 +59,10 @@
     "static/media/Suchoi_logo.png": "/IntekartDev/static/media/Suchoi_logo.19879d6ea57ddbee5f92.png",
     "index.html": "/IntekartDev/index.html",
     "main.4793e5fd.css.map": "/IntekartDev/static/css/main.4793e5fd.css.map",
-    "main.6fcefaa0.js.map": "/IntekartDev/static/js/main.6fcefaa0.js.map"
+    "main.2e0e22ff.js.map": "/IntekartDev/static/js/main.2e0e22ff.js.map"
   },
   "entrypoints": [
     "static/css/main.4793e5fd.css",
-    "static/js/main.6fcefaa0.js"
+    "static/js/main.2e0e22ff.js"
   ]
 }
