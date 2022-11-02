@@ -3,7 +3,7 @@ import {
   AppBar,
   Box,
   Container,
-  Link,
+  // Link,
   Stack,
   Toolbar,
   Typography,
@@ -16,7 +16,7 @@ import {
   navLinkStyles,
   headerLogoStyles,
 } from './HeaderStyles.js';
-// import { useLocation } from 'react-router';
+import { HashLink as Link } from 'react-router-hash-link';
 import logo from '../../images/intekart_logo.png';
 
 const Header = () => {
@@ -50,12 +50,12 @@ const Header = () => {
             alignSelf={'center'}
           >
             <Typography textAlign='center'>
-              <Link href={'/IntekartDev/#about'} style={navLinkStyles}>
+              <Link to={'/IntekartDev/#about'} style={navLinkStyles}>
                 {'о нас'}
               </Link>
             </Typography>
             <Typography textAlign='center'>
-              <Link href={'/IntekartDev/#services'} style={navLinkStyles}>
+              <Link to={'/IntekartDev/#services'} style={navLinkStyles}>
                 {'услуги'}
               </Link>
             </Typography>
@@ -65,7 +65,7 @@ const Header = () => {
             {/*  </NavLink>*/}
             {/*</Typography>*/}
             <Typography textAlign='center'>
-              <Link href={'/IntekartDev/contacts'} style={navLinkStyles}>
+              <Link to={'/IntekartDev/contacts'} style={navLinkStyles}>
                 {'контакты'}
               </Link>
             </Typography>
